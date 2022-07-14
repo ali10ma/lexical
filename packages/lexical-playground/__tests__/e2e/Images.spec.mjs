@@ -591,7 +591,6 @@ test.describe('Images', () => {
     const actualHtml = await page.innerHTML('div[contenteditable="true"]');
     console.info(actualHtml.split('').join(':abc:abc:'));
     writeFileSync('foo.txt', actualHtml);
-    throw new Error('foo');
 
     await assertHTML(
       page,

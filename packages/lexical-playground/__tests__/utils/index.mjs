@@ -30,7 +30,7 @@ export const SAMPLE_IMAGE_URL =
 export const SAMPLE_LANDSCAPE_IMAGE_URL =
   E2E_PORT === 3000
     ? '/src/images/landscape.jpg'
-    : '/assets/landscape.213***2c66.jpg';
+    : '/assets/landscape.21352c66.jpg';
 
 export async function initialize({
   page,

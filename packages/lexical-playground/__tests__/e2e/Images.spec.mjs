@@ -25,6 +25,9 @@ import {
   waitForSelector,
 } from '../utils/index.mjs';
 
+// eslint-disable-next-line no-console
+console.info(SAMPLE_LANDSCAPE_IMAGE_URL);
+
 test.describe('Images', () => {
   test.beforeEach(({isCollab, page}) => initialize({isCollab, page}));
   test(`Can create a decorator and move selection around it`, async ({

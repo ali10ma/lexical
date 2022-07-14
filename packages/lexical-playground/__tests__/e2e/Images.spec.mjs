@@ -587,7 +587,7 @@ test.describe('Images', () => {
     await page.keyboard.press('Enter');
     await page.keyboard.type('text3');
     const actualHtml = await page.innerHTML('div[contenteditable="true"]');
-    console.info(actualHtml.split(':'));
+    console.info(actualHtml.split('').join(':'));
 
     await assertHTML(
       page,
